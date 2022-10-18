@@ -45,7 +45,6 @@ a {
   a:hover {
     box-shadow: inset 100px 0 0 0 #6C896C;
     color: #2c4152;
-    ;
   }
 .fall .header-img {
     content: '';
@@ -146,6 +145,11 @@ section h2 {
     display: flex;
     border: #2c4152;
     border-style: groove;
+    transition: transform .4s ease;
+    background-color:#f4f2ef ;
+}
+.img-card:hover {
+    transform: scale(110%);
 }
 .buynow {
     margin-bottom: 4rem;
@@ -197,7 +201,7 @@ section p {
     text-align: center;
 }
 footer {
-    height: 10rem;
+    height: 15rem;
     background-color:#f4f2ef;
     margin-top: 0rem;
     display: flex;
