@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+header h1 {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 350%;
+    font-family: "Bodoni Moda",serif;
+    background-image: url(img/backwood.webp);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: center;
+    display: flex;
+    color: #6C896C;
+    -webkit-text-stroke: 1px #2c4152;
+
+}
+nav {
+    background: #D3D3D3;    ;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+nav a {
+    color: #2c4152;
+    font-weight: 600;
+    font-family: "Bodoni Moda",serif;
+    text-decoration: none;
+}
+a {
+    box-shadow: inset 0 0 0 0 #B3D1B3;
+    color: #6C896C;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 100px 0 0 0 #6C896C;
+    color: #2c4152;
+    ;
+  }
+.fall .header-img {
+    content: '';
+    background: url(img/fallheader.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.summer .header-img {
+    content: '';
+    background: url(img/summerheader.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fall-footer {
+    height: 10rem;
+    background-image: url(img/backwood.webp);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.summer-footer {
+    height: 10rem;
+    background-image: url(img/backwood.webp);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rose-footer {
+    height: 10rem;
+    background-image: url(img/backwood.webp);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.shop {
+    font-family:"Bodoni Moda",serif; ;
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #CEDACE;
+  background-color: #698469;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.shop:hover {background-color: #698484}
+.shop:active {
+    background-color: #4a5f70;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);}
+
+.rose .header-img {
+    content: '';
+    background: url(img/roseheader.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: #CEDACE;
+    -webkit-text-stroke: 1px #698469;
+    font-size: 450%;
+    font-family: "Bodoni Moda",serif;
+}
+.img-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.img-card {
+    display: flex;
+    border: #2c4152;
+    border-style: groove;
+}
+.buynow {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7rem;
+    margin-right: 1rem;
+}
+.buynow {
+    font-family:"Bodoni Moda",serif; ;
+    display: inline-block;
+  padding: 8px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #CEDACE;
+  background-color: #6C896C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.buynow:hover {background-color: #698477}
+.buynow:active {
+    background-color: #6C896C;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.card-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color:#2c4152 ;
+}
+section h3 {
+    font-family:"Bodoni Moda",serif ;
+    display: flex;
+    justify-content: center;
+}
+section p {
+    font-family:"Bodoni Moda",serif;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+footer {
+    height: 10rem;
+    background-color:#f4f2ef;
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bodoni Moda",serif;
+    color: #2c4152;
+
+}
+.summer {
+    background-color:#f4f2ef;
+}
+.fall {
+    background-color:#f4f2ef;
+}
+.rose {
+    background-color:#f4f2ef;
+}
+@media screen and (max-width: 1280px) {
+    .img-row {
+        grid-gap: 1em;
+    }
+    .img-card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .img-row {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .img-card {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
